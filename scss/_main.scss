@@ -1,0 +1,115 @@
+
+@import "settings";
+
+body {
+  padding: 0 50px 0 50px;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.93em;
+}
+
+
+.fixed {
+  padding: 0 68px 0 67px;
+}
+
+.top-bar {
+  border-bottom: 1px solid $primary-color;
+
+  li {
+    line-height: 75px;
+  }
+  li a {
+    height: 74px;
+  }
+}
+
+.name {
+  color: #0a4d6c;
+  text-transform: uppercase;
+  font-weight: bolder;
+
+  span {
+    color: #f26e58;
+  }
+}
+
+.portfolioWrapper {
+  padding: 0 67px 0 48px;
+}
+
+.portfolioFilter {
+  text-align: center;
+  margin-bottom: 10px;
+
+  a {
+    margin-right: 10px;
+    color:#666;
+    text-decoration:none;
+  }
+
+  a.current {
+    font-weight:bold;
+  }
+}
+
+.portfolio-title {
+  padding: 3%;
+}
+
+.portfolioFilter {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.portfolioFilter a {
+    margin-right: 10px;
+    color:#666;
+    text-decoration:none;
+}
+
+.portfolioFilter a.current {
+    font-weight:bold;
+}
+
+.portfolioContainer {
+  margin-bottom: 75px;
+}
+
+.about-content {
+  border-top: 1px solid $primary-color;
+  padding: 3%;
+  margin: 0 20px 0 17px;
+}
+
+.circular-portrait {
+  -moz-border-radius: 170px;
+  -webkit-border-radius: 170px;
+  border-radius: 170px;
+  display: block;
+  float: left;
+  width: 170px;
+}
+
+.contact-content {
+  border-top: 1px solid $primary-color;
+  padding: 3%;
+  margin: 0 20px 0 17px;
+
+}
+
