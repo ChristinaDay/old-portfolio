@@ -46,7 +46,18 @@ p {
   span {
     color: #f26e58;
   }
+
+  .small-logo {
+    display: none;
+  }
+
+  .smallest-logo {
+    display: none;
+  }
+
 }
+
+
 
 .portfolioWrapper {
   padding: 0 67px 0 48px;
@@ -55,11 +66,13 @@ p {
 .portfolioFilter {
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 15px;
 
   a {
     margin-right: 10px;
-    color:#666;
     text-decoration:none;
+    color: $body-font-color;
+    line-height: 3em;
   }
 
   a.current {
@@ -71,21 +84,6 @@ p {
   padding: 3%;
 }
 
-.portfolioFilter {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
-.portfolioFilter a {
-    margin-right: 10px;
-    color:#666;
-    text-decoration:none;
-}
-
-.portfolioFilter a.current {
-    font-weight:bold;
-}
 
 .portfolioContainer {
   margin-bottom: 75px;
@@ -113,3 +111,27 @@ p {
 
 }
 
+@media (max-width: 800px) {
+  .name {
+    .large-logo {
+      display: none;
+    }
+
+    .small-logo {
+      display: block;
+    }
+
+  }
+}
+
+@media (max-width: 400px) {
+  .name {
+    .small-logo {
+      display: none;
+    }
+
+    .smallest-logo {
+      display: block;
+    }
+  }
+}
