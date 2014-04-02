@@ -42,6 +42,7 @@ p {
   color: #78C1E2;
   text-transform: uppercase;
   font-weight: bolder;
+  text-rendering: optimizeLegibility;
 
   span {
     color: #f26e58;
@@ -107,6 +108,12 @@ p {
 
 }
 
+@media (max-width: 850px) {
+  .fixed {
+    padding: 0 66px 0 67px;
+  }
+}
+
 @media (max-width: 800px) {
   .name {
     .large-logo {
@@ -120,9 +127,15 @@ p {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
   .fixed {
-    padding: 0 66px 0 67px;
+    padding: 0;
+  }
+
+  .name {
+    .small-logo {
+      padding-left: 25px;
+    }
   }
 }
 
