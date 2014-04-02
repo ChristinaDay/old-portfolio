@@ -34,10 +34,14 @@
   }
 
 
-@media (max-width: 442px) {
+@media (max-width: 300px) {
   .portfolioContainer .item {
-    width: 265px;
-    height: 130px;
+    width: 265px !important;
+    height: 130px !important;
+  }
+
+  .portfolioContainer .item-h2 {
+    height: 265px !important;
   }
 }
 
