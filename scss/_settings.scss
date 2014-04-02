@@ -37,7 +37,7 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
-$body-bg: #f1f1f2;
+$body-bg: #fff;
 $body-font-color: #858384;
 $body-font-family: "adelle-sans",sans-serif;
 // $body-font-weight: normal;
@@ -1124,7 +1124,7 @@ $header-font-color: $primary-color;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: #f1f1f2;
+$topbar-bg-color: #fff;
 //$topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1152,8 +1152,8 @@ $topbar-link-color: #858384;
 // $topbar-link-weight: normal;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
-$topbar-link-bg-hover: white;
-$topbar-link-bg-active: white;
+$topbar-link-bg-hover: #f1f1f2;
+$topbar-link-bg-active: #f1f1f2;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 
