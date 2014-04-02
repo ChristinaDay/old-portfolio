@@ -2,7 +2,7 @@
   float: left;
   background: #17A781;
   width: 20%;
-  height: 177.5px;
+  // height: 177.5px;
   margin: 0 2px 4px;
   overflow: hidden;
   position: relative;
@@ -32,6 +32,14 @@
       pointer-events: none;
       z-index: 1;
   }
+
+
+@media (max-width: 442px) {
+  .portfolioContainer .item {
+    width: 265px;
+    height: 130px;
+  }
+}
 
   .isotope,
   .isotope .isotope-item {
