@@ -120,7 +120,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .name {
     .small-logo {
       display: none;
@@ -128,6 +128,15 @@ p {
 
     .smallest-logo {
       display: block;
+      padding-left: 25px;
     }
+  }
+
+  body {
+    padding: 0 10px 0 10px;
+  }
+
+  .fixed {
+    padding: 0;
   }
 }
