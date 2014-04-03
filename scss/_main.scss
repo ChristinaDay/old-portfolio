@@ -60,8 +60,12 @@ p {
 }
 
 .item.hero {
-  background: url(../assets/west-tx-m.jpg);
-  // background-size: 568px;
+  background:
+    linear-gradient(
+      rgba(120, 193, 226, 0.76),
+      rgba(250, 91, 65, 0.54)
+    ),
+  url(../assets/west-tx-m.jpg);
   text-align: center;
   padding: 15%;
 }
