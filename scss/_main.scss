@@ -85,11 +85,17 @@ p {
     text-decoration:none;
     color: $body-font-color;
     line-height: 3em;
+    border-right: 1px solid $body-font-color;
+    padding-right: 10px;
   }
 
   a.current {
     font-weight:bold;
   }
+}
+
+.portfolioFilter a:last-child {
+  border: 0;
 }
 
 
