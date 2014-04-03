@@ -1,32 +1,29 @@
 .portfolioContainer div {
   float: left;
-  background: #17A781;
   width: 20%;
   // height: 177.5px;
   margin: 0 2px 4px;
   overflow: hidden;
   position: relative;
+  //  filter: url(../assets/filters.svg#grayscale); /* Firefox 3.5+ */
+  //  filter: gray; /* IE6-9 */
+  // -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 
   img {
     position: absolute;
     z-index:1;
-    // filter: url(assets/filters.svg#grayscale); /* Firefox 3.5+ */
-    // filter: gray; /* IE6-9 */
-    // -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   }
 }
 .portfolioContainer .item-w2 {
   width: 40%;
-  background: #ED9393;
 }
 .portfolioContainer .item-h2 {
   height: 177.5px;
-  background: #7CB744;
 }
 .portfolioContainer .item-h3 {
   height: 364.07px;
-  background: #38B5E5;
   }
+
 
   .isotope-hidden.isotope-item {
       pointer-events: none;

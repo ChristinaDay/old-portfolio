@@ -43,6 +43,7 @@ p {
   text-transform: uppercase;
   font-weight: bolder;
   text-rendering: optimizeLegibility;
+  letter-spacing: 0.5em;
 
   span {
     color: #f26e58;
@@ -58,11 +59,22 @@ p {
 
 }
 
+.item.hero {
+  background: url(../assets/west-tx-m.jpg);
+  // background-size: 568px;
+  text-align: center;
+  padding: 15%;
+}
+
+.item.hero h2 h3 {
+    color: white !important;
+  }
 
 .portfolioFilter {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 15px;
+  letter-spacing: 0.2em;
 
   a {
     margin-right: 10px;
@@ -79,7 +91,10 @@ p {
 
 .portfolioContainer {
   margin-bottom: 75px;
+  max-width: 100%;
+
 }
+
 
 .about-content {
   border-top: 1px solid $primary-color;
@@ -101,6 +116,11 @@ p {
   padding: 3%;
   margin: 0 20px 0 17px;
 
+}
+
+
+.reveal-modal {
+  line-height: 1.5em;
 }
 
 @media (max-width: 850px) {
