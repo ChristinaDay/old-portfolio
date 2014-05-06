@@ -1,9 +1,6 @@
 
 @import "settings";
 
-body {
-  padding: 0 50px 0 50px;
-}
 
 h1 {
   font-size: 42px;
@@ -23,30 +20,21 @@ p {
 }
 
 
-.fixed {
-  padding: 0 68px 0 67px;
-}
-
-.top-bar {
-  border-bottom: 1px solid $primary-color;
-
-  li {
-    line-height: 75px;
-  }
-  li a {
-    height: 74px;
-  }
-}
 
 .name {
-  color: #78C1E2;
   text-transform: uppercase;
   font-weight: bolder;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.5em;
+  padding-top: 10px;
+  padding-left: 30px;
+
+  a {
+    color: #D2DCE0;
+  }
 
   span {
-    color: #f26e58;
+    color: rgba(242, 110, 88, 0.72);
   }
 
   .small-logo {
@@ -59,57 +47,10 @@ p {
 
 }
 
-.item.hero {
-  background:
-    linear-gradient(
-      rgba(120, 193, 226, 0.76),
-      rgba(250, 91, 65, 0.54)
-    ),
-  url(../assets/west-tx-m.jpg);
-  text-align: center;
-  padding: 15%;
-}
-
-.item.hero h2 h3 {
-    color: white !important;
-  }
-
-.portfolioFilter {
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  letter-spacing: 0.2em;
-
-  a {
-    margin-right: 10px;
-    text-decoration:none;
-    color: $body-font-color;
-    line-height: 3em;
-    border-right: 1px solid $body-font-color;
-    padding-right: 10px;
-  }
-
-  a.current {
-    font-weight:bold;
-  }
-}
-
-.portfolioFilter a:last-child {
-  border: 0;
-}
-
-
-.portfolioContainer {
-  margin-bottom: 75px;
-  max-width: 100%;
-
-}
-
-
-.about-content {
-  border-top: 1px solid $primary-color;
+.about {
   padding: 3%;
-  margin: 0 20px 0 17px;
+  margin-top: 30px;
+  background: #F5F3F3;
 }
 
 .circular-portrait {
@@ -122,7 +63,6 @@ p {
 }
 
 .contact-content {
-  border-top: 1px solid $primary-color;
   padding: 3%;
   margin: 0 20px 0 17px;
 
@@ -133,11 +73,6 @@ p {
   line-height: 1.5em;
 }
 
-@media (max-width: 850px) {
-  .fixed {
-    padding: 0 66px 0 67px;
-  }
-}
 
 @media (max-width: 800px) {
   .name {
@@ -153,9 +88,7 @@ p {
 }
 
 @media (max-width: 650px) {
-  .fixed {
-    padding: 0;
-  }
+
 
   .name {
     .small-logo {
@@ -176,13 +109,11 @@ p {
     }
   }
 
-  body {
-    padding: 0 10px 0 10px;
-  }
+  // body {
+  //   padding: 0 10px 0 10px;
+  // }
 
-  .fixed {
-    padding: 0;
-  }
+
 }
 
 @media (max-width: 350px) {
@@ -193,8 +124,3 @@ p {
 
 }
 
-@media (max-width: 300px) {
-  body {
-    padding: 0;
-  }
-}
