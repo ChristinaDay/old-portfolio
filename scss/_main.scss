@@ -33,6 +33,10 @@ p {
     color: #D2DCE0;
   }
 
+  a:hover {
+    color: $primary-color;
+  }
+
   span {
     color: rgba(242, 110, 88, 0.72);
   }
