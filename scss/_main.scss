@@ -84,6 +84,7 @@ main {
   z-index: -200;
 }
 
+
 .portfolio-container ul {
 
 
@@ -112,6 +113,10 @@ main {
     }
 
   }
+
+  main {
+    background-image: url(hero-pattern.png);
+  }
 }
 
 @media (max-width: 650px) {
@@ -122,6 +127,11 @@ main {
       padding-left: 25px;
     }
   }
+
+  main {
+    background-image: url(hero-pattern.png);
+  }
+
 }
 
 @media (max-width: 420px) {
@@ -136,12 +146,18 @@ main {
     }
   }
 
+  main {
+    background-image: url(hero-pattern.png);
+  }
+
 
 }
 
 @media (max-width: 350px) {
 
-
+  main {
+    background-image: url(hero-pattern.png);
+  }
 
 }
 
