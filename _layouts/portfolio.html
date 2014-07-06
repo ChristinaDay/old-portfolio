@@ -42,15 +42,16 @@
 
     </header>
 
-    <main>
+    <main data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
 
-      <div class="portfolio">
+
         <a name="portfolio"></a>
 
 
           <div class="row portfolio-container">
 
-            <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-1">
+            <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2">
+
 
               <li>
                 <a href="#" data-reveal-id="thirdModal" data-reveal>
@@ -107,11 +108,11 @@
               </li>
 
 
-            </ul><!--end .small-block-grid-4-->
+            </ul>
 
         </div><!--end .portfolio-container-->
 
-      </div><!--end .portfolio-->
+
 
       <div class="about">
 
@@ -388,136 +389,18 @@
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
         <script src="js/app.js"></script>
+
+        <script type="text/javascript">
+            skrollr.init();
+        </script>
         <script>
           $(document).foundation();
         </script>
 
 
-        <script src="js/jquery.isotope.js" type="text/javascript"></script>
 
-        <script type="text/javascript">
-        (function ($) {
-          var $container = $('.portfolioContainer'),
-            colWidth = function () {
-              var w = $container.width(),
-                columnNum = 1,
-                columnWidth = 0;
-              if (w > 1200) {
-                columnNum  = 5;
-              } else if (w > 900) {
-                columnNum  = 4;
-              } else if (w > 600) {
-                columnNum  = 3;
-              } else if (w > 300) {
-                columnNum  = 2;
-              }
-              columnWidth = Math.floor(w/columnNum);
-              $container.find('.item').each(function() {
-                var $item = $(this),
-                  multiplier_w = $item.attr('class').match(/item-w(\d)/),
-                  multiplier_h = $item.attr('class').match(/item-h(\d)/),
-                  width = multiplier_w ? columnWidth*multiplier_w[1]-4 : columnWidth-4,
-                  height = multiplier_h ? columnWidth*multiplier_h[1]*0.5 -4: columnWidth*0.5 -4;
-                $item.css({
-                  width: width,
-                  height: height
-                });
-              });
-              return columnWidth;
-            },
-            isotope = function () {
-              $container.isotope({
-                resizable: false,
-                itemSelector: '.item',
-                masonry: {
-                  columnWidth: colWidth(),
-                  gutterWidth: 4
-                }
-              });
-            };
-          isotope();
-          $(window).smartresize(isotope);
-
-
-          $('.portfolioFilter a').on('click', function(event){
-              event.preventDefault();
-              $('.portfolioFilter .current').removeClass('current');
-              $(this).addClass('current');
-
-              var selector = $(this).data('filter');
-              $container.isotope({
-                  filter: selector,
-                  animationOptions: {
-                      duration: 750,
-                      easing: 'linear',
-                      queue: false
-                  }
-               });
-               // resizer();
-               return false;
-          });
-
-          // var resizer = function() {
-          //   console.log("im running");
-          //   var images = $('img');
-          //   for(var i = 0; i <= images.length; i += 1) {
-          //     var $image = $(images[i]);
-          //     var wrapperHeight = $image.parents('.item').height();
-          //     var wrapperWidth = $image.parents('.item').width();
-          //     var imageh = $image.height();
-          //     var imagew = $image.width();
-
-          //     if (i === 1) {
-          //       console.log($image);
-          //       console.log("wrapper height ", wrapperHeight);
-          //       console.log("wrapper width ", wrapperWidth);
-          //       console.log("image height ", imageh);
-          //       console.log("image width ", imagew);
-          //     }
-
-              // use background-size with background-images instead
-          //     if (imageh > wrapperHeight) {
-          //       $image.css('width', "inherit");
-          //     } else if (imagew > wrapperWidth) {
-          //       $image.css('height', "inherit");
-          //     } else {
-
-          //     }
-          //   }
-          // };
-        }(jQuery));
-
-
-          // $(window).load(function(){
-          //     var $container = $('.portfolioContainer');
-          //     $container.isotope({
-          //         filter: '*',
-          //         animationOptions: {
-          //             duration: 750,
-          //             easing: 'linear',
-          //             queue: false
-          //         }
-          //     });
-
-          //     $('.portfolioFilter a').on('click', function(event){
-          //         event.preventDefault();
-          //         $('.portfolioFilter .current').removeClass('current');
-          //         $(this).addClass('current');
-
-          //         var selector = $(this).data('filter');
-          //         $container.isotope({
-          //             filter: selector,
-          //             animationOptions: {
-          //                 duration: 750,
-          //                 easing: 'linear',
-          //                 queue: false
-          //             }
-          //          });
-          //          return false;
-          //     });
-          // });
-        </script>
 
 
 
