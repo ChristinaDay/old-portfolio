@@ -98,6 +98,10 @@ main {
 
 }
 
+.reveal-modal {
+  z-index: 1000;
+}
+
 .reveal-modal .large-12 img {
   margin-bottom: 40px;
 }
@@ -200,7 +204,6 @@ main {
   .portfolio-container {
     margin-left: 35px;
     margin-right: 75px;
-    z-index: 1000;
   }
 
 }
