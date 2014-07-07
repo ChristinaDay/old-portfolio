@@ -98,9 +98,7 @@ main {
 
 }
 
-.reveal-modal {
-  z-index: 1000;
-}
+
 
 .reveal-modal .large-12 img {
   margin-bottom: 40px;
@@ -126,31 +124,31 @@ main {
       opacity:0;
 }
 
-.caption {
-    height: 230px;
-    width: 230px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    // background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    // z-index: 100;
+// .caption {
+//     height: 230px;
+//     width: 230px;
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     // background: rgba(29, 106, 154, 0.72);
+//     color: #fff;
+//     // z-index: 100;
 
 
-    // visibility: hidden;
-    // opacity: 0;
+//     // visibility: hidden;
+//     // opacity: 0;
 
-    /*remove comment if you want a gradual transition between states*/
-    -webkit-transition: visibility opacity 0.2s;
+//     /*remove comment if you want a gradual transition between states*/
+//     -webkit-transition: visibility opacity 0.2s;
 
-}
+// }
 
-.titlepanel:hover.caption {
-  visibility: visible;
-   opacity: 1;
-}
+// .titlepanel:hover.caption {
+//   visibility: visible;
+//    opacity: 1;
+// }
 
 
 
