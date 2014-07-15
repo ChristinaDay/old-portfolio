@@ -73,9 +73,6 @@ footer {
   background: #3B3852;
 }
 
-.reveal-modal {
-  line-height: 1.5em;
-}
 
 main {
   background-image: url(../assets/hero-pattern.png);
@@ -99,9 +96,11 @@ main {
 }
 
 
-
 .reveal-modal .large-12 img {
   margin-bottom: 40px;
+}
+.reveal-modal {
+  line-height: 1.5em;
 }
 
 .titlepanel {
@@ -176,9 +175,9 @@ main {
     }
   }
 
-  .reveal-modal{
-      position : absolute;
-  }
+  // .reveal-modal{
+  //     position : absolute;
+  // }
 }
 
 @media (max-width: 420px) {
@@ -198,23 +197,23 @@ main {
     margin-right: 75px;
   }
 
-  .reveal-modal{
-      position : absolute;
-  }
+  // .reveal-modal{
+  //     position : absolute;
+  // }
 
 
 }
 
 @media (max-width: 350px) {
 
-  .portfolio-container {
-    margin-left: 35px;
-    margin-right: 75px;
-  }
+  // .portfolio-container {
+  //   margin-left: 35px;
+  //   margin-right: 75px;
+  // }
 
-  .reveal-modal{
-      position : fixed;
-  }
+  // .reveal-modal{
+  //     position : absolute;
+  // }
 
 }
 
