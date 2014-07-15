@@ -175,6 +175,10 @@ main {
       padding-left: 25px;
     }
   }
+
+  .reveal-modal{
+      position : absolute;
+  }
 }
 
 @media (max-width: 420px) {
@@ -194,6 +198,10 @@ main {
     margin-right: 75px;
   }
 
+  .reveal-modal{
+      position : absolute;
+  }
+
 
 }
 
@@ -205,7 +213,7 @@ main {
   }
 
   .reveal-modal{
-      position : relative;
+      position : absolute;
   }
 
 }
