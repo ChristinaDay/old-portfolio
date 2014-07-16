@@ -2,24 +2,6 @@
 @import "settings";
 
 
-h1 {
-  // font-size: 42px;
-  // line-height: 40px;
-}
-
-h2 {
-  // font-size: 26px;
-  // font-style: bold;
-  // text-transform: uppercase;
-  }
-
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.93em;
-}
-
-
 
 .name {
   text-transform: uppercase;
@@ -49,7 +31,6 @@ p {
 
 .about {
   padding: 3%;
-  margin-top: 30px;
   background: white;
 }
 
@@ -63,14 +44,14 @@ p {
 }
 
 .contact-content {
-  padding: 3%;
+  // padding: 3%;
   // margin: 0 20px 0 17px;
 
 }
 
 footer {
-  height: 300px;
   background: #3B3852;
+  min-height: 500px;
 }
 
 
@@ -206,10 +187,10 @@ main {
 
 @media (max-width: 350px) {
 
-  // .portfolio-container {
-  //   margin-left: 35px;
-  //   margin-right: 75px;
-  // }
+  .portfolio-container {
+    margin-left: 35px;
+    margin-right: 75px;
+  }
 
   // .reveal-modal{
   //     position : absolute;

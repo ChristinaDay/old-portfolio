@@ -136,9 +136,11 @@
 
       <div class="about">
 
-        <div class="row">
 
-          <h2>About Me</h2>
+
+
+
+          <div class="row">
           <a name="about"></a>
 
                     <div class="large-6 columns">
@@ -157,46 +159,9 @@
                     </div>
 
 
-        </div><!--end .row -->
 
 
 
-        <a name="contact"></a>
-        <div class="row">
-          <h2 class="large-12 columns">Get In Touch</h2>
-        </div>
-
-          <div class="row">
-            <div class="large-8 medium-8 columns">
-              <!-- Grid Example -->
-              <form data-abide action="http://getsimpleform.com/messages?form_api_token=2a20f37052b04e81aca043f2ae506ae7" method="post">
-                <div class="row">
-
-                  <div class="large-6 columns">
-                    <label>Name</label>
-                    <input type="text" name='name' pattern="[a-zA-Z]+" placeholder="First Last" required />
-                    <small class="error">First and Last Name</small>
-                  </div>
-                  <div class="large-6 medium-6 columns">
-                    <label>E-mail</label>
-                    <input type="email" name='email'  pattern="email" placeholder="example@yourmail.com" required />
-                    <small class="error">Please give a valid email.</small>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="large-12 columns">
-                    <label>Comments</label>
-                    <textarea name="comments" placeholder="What's on your mind?"></textarea>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="large-12 columns">
-                    <button type="submit">Submit</button>
-                  </div>
-                </div>
-              </form>
-            </div>
           </div><!--end .about-->
         </div>
 
@@ -204,10 +169,42 @@
 
         <!-- FOOTER AREA -->
         <footer>
+  <a name="contact"></a>
+
+    <h3 class="large-12 columns">Get In Touch</h3>
+
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        <!-- Grid Example -->
+        <form data-abide action="http://getsimpleform.com/messages?form_api_token=2a20f37052b04e81aca043f2ae506ae7" method="post">
+          <div class="row">
+
+            <div class="large-6 columns">
+              <label>Name</label>
+              <input type="text" name='name' pattern="[a-zA-Z]+" placeholder="First Last" required />
+              <small class="error">First and Last Name</small>
+            </div>
+            <div class="large-6 medium-6 columns">
+              <label>E-mail</label>
+              <input type="email" name='email'  pattern="email" placeholder="example@yourmail.com" required />
+              <small class="error">Please give a valid email.</small>
+            </div>
+          </div>
+
           <div class="row">
             <div class="large-12 columns">
-
+              <label>Comments</label>
+              <textarea name="comments" placeholder="What's on your mind?"></textarea>
             </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
           </div>
         </footer>
 
