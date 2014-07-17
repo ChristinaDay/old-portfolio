@@ -73,17 +73,25 @@ main {
 
 footer {
   background: #3B3852;
-  min-height: 500px;
+  min-height: 100px;
   padding: 3%;
 
   .social {
-    padding-left: 50px;
 
     ul {
       list-style: none;
-    }
-  }
-}
+
+      li {
+        display: inline-block;
+      }
+
+      li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5) {
+        padding-left: 10px;
+      }
+
+    } //end ul
+  } //end .social
+} //end footer
 
 
 
