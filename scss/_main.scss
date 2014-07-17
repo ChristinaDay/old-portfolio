@@ -48,16 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 170px;
 }
 
-.contact-content {
-  // padding: 3%;
-  // margin: 0 20px 0 17px;
-
-}
-
-footer {
-  background: #3B3852;
-  min-height: 500px;
-}
 
 
 main {
@@ -80,6 +70,22 @@ main {
 
 
 }
+
+footer {
+  background: #3B3852;
+  min-height: 500px;
+  padding: 3%;
+
+  .social {
+    padding-left: 50px;
+
+    ul {
+      list-style: none;
+    }
+  }
+}
+
+
 
 
 .reveal-modal .large-12 img {
