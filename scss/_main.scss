@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 170px;
   -webkit-border-radius: 170px;
   border-radius: 170px;
+  border: 4px solid rgb(223, 228, 223);
   display: block;
   width: 112px;
   margin: 46px auto 46px auto;
@@ -135,6 +136,12 @@ footer {
 
       li:nth-child(7) {
         background-image: url(../assets/behance-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(8) {
+        background-image: url(../assets/flickr-icon.svg);
         background-repeat: no-repeat;
         background-position: center;
       }
