@@ -173,31 +173,6 @@ footer {
       opacity:0;
 }
 
-// .caption {
-//     height: 230px;
-//     width: 230px;
-//     position: absolute;
-//     top: 0;
-//     bottom: 0;
-//     left: 0;
-//     right: 0;
-//     // background: rgba(29, 106, 154, 0.72);
-//     color: #fff;
-//     // z-index: 100;
-
-
-//     // visibility: hidden;
-//     // opacity: 0;
-
-//     /*remove comment if you want a gradual transition between states*/
-//     -webkit-transition: visibility opacity 0.2s;
-
-// }
-
-// .titlepanel:hover.caption {
-//   visibility: visible;
-//    opacity: 1;
-// }
 
 
 
@@ -224,10 +199,6 @@ footer {
       padding-left: 25px;
     }
   }
-
-  // .reveal-modal{
-  //     position : absolute;
-  // }
 }
 
 @media (max-width: 420px) {
@@ -246,12 +217,6 @@ footer {
     margin-left: 75px;
     margin-right: 75px;
   }
-
-  // .reveal-modal{
-  //     position : absolute;
-  // }
-
-
 }
 
 @media (max-width: 350px) {
@@ -260,14 +225,5 @@ footer {
     margin-left: 35px;
     margin-right: 75px;
   }
-
-  // .reveal-modal{
-  //     position : absolute;
-  // }
-
 }
 
-
-// .reveal-modal{
-//     position : fixed;
-// }
