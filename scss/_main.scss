@@ -75,6 +75,7 @@ main {
   margin-bottom: 15px;
 }
 
+
 footer {
   background: #3B3852;
   min-height: 100px;
@@ -89,8 +90,53 @@ footer {
         display: inline-block;
       }
 
-      li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7) {
-        padding-left: 10px;
+      a {
+        display: inline-block;
+        color: transparent;
+        width: 60px;
+        height: 60px;
+      }
+
+      li:nth-child(1) {
+        background-image: url(../assets/email-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(2) {
+        background-image: url(../assets/twitter-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(3) {
+        background-image: url(../assets/github-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(4) {
+        background-image: url(../assets/tumblr-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(5) {
+        background-image: url(../assets/facebook-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(6) {
+        background-image: url(../assets/linkedin-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      li:nth-child(7) {
+        background-image: url(../assets/behance-icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
       }
 
     } //end ul
