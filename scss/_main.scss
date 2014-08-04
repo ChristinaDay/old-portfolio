@@ -6,8 +6,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
 
-
-
 .name {
   text-transform: uppercase;
   font-weight: bolder;
@@ -49,8 +47,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 46px auto 46px auto;
 }
 
-
-
 main {
   background-image: url(../assets/hero-pattern.png);
 
@@ -68,7 +64,6 @@ main {
     padding: 10px;
     overflow: hidden;
   }
-
 
 }
 
@@ -89,6 +84,12 @@ footer {
 
       li {
         display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          backround-position: center bottom;
+        }
       }
 
       a {
@@ -98,53 +99,39 @@ footer {
         height: 60px;
       }
 
-      li:nth-child(1) {
+      #email {
         background-image: url(../assets/email-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(2) {
+      #twitter {
         background-image: url(../assets/twitter-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(3) {
+      #github {
         background-image: url(../assets/github-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(4) {
+      #tumblr {
         background-image: url(../assets/tumblr-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(5) {
+      #facebook {
         background-image: url(../assets/facebook-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(6) {
+      #linkedin {
         background-image: url(../assets/linkedin-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(7) {
+      #behance {
         background-image: url(../assets/behance-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
 
-      li:nth-child(8) {
+      #flickr {
         background-image: url(../assets/flickr-icon.svg);
-        background-repeat: no-repeat;
-        background-position: center;
       }
+
+
 
     } //end ul
   } //end .social
@@ -172,14 +159,15 @@ footer {
   -webkit-transition:opacity 0.2s ease;
   -moz-transition:opacity 0.2s ease;
   -o-transition:opacity 0.2s ease;
-}
+  transition:opacity 0.2s ease;
 
-.titlepanel:hover {
+  &:hover {
   //Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
       background-color:rgba(100,100,100,0);
       opacity:0;
-}
 
+  }
+}
 
 
 
