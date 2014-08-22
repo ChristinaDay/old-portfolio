@@ -4515,8 +4515,8 @@ footer {
     footer .social ul a {
       display: inline-block;
       color: transparent;
-      width: 45px;
-      height: 45px; }
+      width: 35px;
+      height: 35px; }
     footer .social ul #email {
       background-image: url(../assets/email-icon.svg); }
     footer .social ul #twitter {
