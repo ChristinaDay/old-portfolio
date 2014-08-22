@@ -78,6 +78,12 @@ footer {
   min-height: 100px;
   padding: 3%;
 
+  p {
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #8D8AA7;
+  }
+
   .social {
 
     ul {
@@ -87,17 +93,13 @@ footer {
         display: inline-block;
         background-repeat: no-repeat;
         background-position: center;
-
-        &:hover {
-          backround-position: center bottom;
-        }
       }
 
       a {
         display: inline-block;
         color: transparent;
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
       }
 
       #email {
