@@ -14,7 +14,7 @@ var paths = {
 gulp.task('sass', function () {
   gulp.src(paths.masterStyle)
     .pipe(plumber())
-    .pipe(scsslint())
+    //.pipe(scsslint())
     // .pipe(sourcemaps.init())
     .pipe(sass({
         outputStyle: 'compressed',
