@@ -2,7 +2,7 @@
 // @import "settings";
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "museo-slab", serif;
   font-weight: 100;
 }
 
@@ -36,10 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 .about {
   padding: 3%;
   background: white;
-
-  p {
-    font-size: 9px;
-  }
 }
 
 .circular-portrait {
@@ -49,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 4px solid rgb(223, 228, 223);
   display: block;
   width: 129px;
-  margin: 46px auto 46px auto;
+  margin: 24px auto 46px auto;
 }
 
 main {
