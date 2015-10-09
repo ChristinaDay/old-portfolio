@@ -15,13 +15,13 @@ gulp.task('sass', function () {
   gulp.src(paths.masterStyle)
     .pipe(plumber())
     .pipe(scsslint())
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass({
         outputStyle: 'compressed',
         includePaths: ['bower_components/foundation/scss']
       }).on('error', sass.logError))
-    .pipe(prefix())
-    .pipe(sourcemaps.write())
+    // .pipe(prefix())
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest(paths.build))
 });
 
